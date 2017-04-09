@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Gil's Portfolio </title>
+     
+        <script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+        
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+        
+        
+        <!--fontawesome CDN-->
+        <script src="https://use.fontawesome.com/b83c0de3b6.js"></script>
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Concert+One|Varela+Round" rel="stylesheet">
+        <!--  ------------------CUSTOM----------------- -->
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+    <body>
+        <div class="header">
+            <nav>
+                <div class="nav-wrapper">
+                  <!--<a href="#!" class="brand-logo">Logo</a>-->
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a onclick="fnMove('1')" >About</a></li>
+                    <li><a onclick="fnMove('2')" >Portfolio</a></li>
+                    <li><a onclick="fnMove('3')" >Contact</a></li>
+                    
+                  </ul>
+                  <ul class="side-nav" id="mobile-demo">
+                    <li><a onclick="fnMove('1')">About</a></li>
+                    <li><a onclick="fnMove('2')">Portfolio</a></li>
+                    <li><a onclick="fnMove('3')">Contact</a></li>
+                  </ul>
+                </div>
+            </nav>
+            
+            <div class="box">
+                <h1>Title</h1>
+            </div>
+            <div class="profile">
+                
+            </div>
+        </div>
+            
+            
+        <div class="contents">
+            <div class="myInfo">
+                <span class="myName">Gilhyeon Gim</span>
+                <br>
+                <span>Automotive Engineering | designer</span>
+            </div>
+            <div class="section about" id="div1">
+                <h3>About</h3>
+                <img class="imgCon" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/L9V5PU05K6.jpg">
+                <ul class="info">
+                    <li>Kookmin univsersity</li>
+                    <li>Automotive Engineering</li>
+                </ul>
+            </div>
+            
+            <div class="section portfolio" id="div2">
+            <h3>About</h3>
+                <img class="imgCon" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/JJ4BKM1R92.jpg">
+                <ul class="info">
+                    <li>Kookmin univsersity</li>
+                    <li>Automotive Engineering</li>
+                </ul>
+            </div>
+            
+            <div class="section contact" id="div3">
+                <h3>About</h3>
+                <img class="imgCon" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/S28MUJMXYJ.jpg">
+                <ul class="info">
+                    <li>Kookmin univsersity</li>
+                    <li>Automotive Engineering</li>
+                </ul>
+            </div>
+        </div>
+            
+            
+     
+        
+        
+        <script src="custom.js"></script>
+    </body>
+    
+</html>
