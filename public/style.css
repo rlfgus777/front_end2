@@ -65,3 +65,16 @@
     width: 70%;
     margin:0 auto;
 }
+
+.side-nav {
+    width:150px;
+}
+
+#sidenav-overlay {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.btn:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
